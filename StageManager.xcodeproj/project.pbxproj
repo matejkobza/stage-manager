@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54266C3F1761C6EF008104B0 /* left-menu-hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 54266C3E1761C6EF008104B0 /* left-menu-hidden.png */; };
+		5439CF011761518D00723BFB /* drums-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEF51761518D00723BFB /* drums-notify.png */; };
+		5439CF021761518D00723BFB /* drums1-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEF61761518D00723BFB /* drums1-notify.png */; };
+		5439CF031761518D00723BFB /* el-guit-black-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEF71761518D00723BFB /* el-guit-black-notify.png */; };
+		5439CF041761518D00723BFB /* el-guit-red-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEF81761518D00723BFB /* el-guit-red-notify.png */; };
+		5439CF051761518D00723BFB /* el-guit-red1-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEF91761518D00723BFB /* el-guit-red1-notify.png */; };
+		5439CF061761518D00723BFB /* microphone-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEFA1761518D00723BFB /* microphone-notify.png */; };
+		5439CF071761518D00723BFB /* microphone1-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEFB1761518D00723BFB /* microphone1-notify.png */; };
+		5439CF081761518D00723BFB /* monitor-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEFC1761518D00723BFB /* monitor-notify.png */; };
+		5439CF091761518D00723BFB /* piano-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEFD1761518D00723BFB /* piano-notify.png */; };
+		5439CF0A1761518D00723BFB /* saxaphone-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEFE1761518D00723BFB /* saxaphone-notify.png */; };
+		5439CF0B1761518D00723BFB /* violin-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CEFF1761518D00723BFB /* violin-notify.png */; };
+		5439CF0C1761518D00723BFB /* wood-guit-yellow-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF001761518D00723BFB /* wood-guit-yellow-notify.png */; };
+		5439CF0E176151A900723BFB /* wood-guit-black-notify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF0D176151A900723BFB /* wood-guit-black-notify.png */; };
+		5439CF1B1761537F00723BFB /* drums-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF0F1761537F00723BFB /* drums-volume.png */; };
+		5439CF1C1761537F00723BFB /* drums1-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF101761537F00723BFB /* drums1-volume.png */; };
+		5439CF1D1761537F00723BFB /* el-guit-black-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF111761537F00723BFB /* el-guit-black-volume.png */; };
+		5439CF1E1761537F00723BFB /* el-guit-red-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF121761537F00723BFB /* el-guit-red-volume.png */; };
+		5439CF1F1761537F00723BFB /* el-guit-red1-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF131761537F00723BFB /* el-guit-red1-volume.png */; };
+		5439CF201761537F00723BFB /* microphone-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF141761537F00723BFB /* microphone-volume.png */; };
+		5439CF211761537F00723BFB /* microphone1-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF151761537F00723BFB /* microphone1-volume.png */; };
+		5439CF221761537F00723BFB /* monitor-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF161761537F00723BFB /* monitor-volume.png */; };
+		5439CF231761537F00723BFB /* piano-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF171761537F00723BFB /* piano-volume.png */; };
+		5439CF241761537F00723BFB /* saxaphone-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF181761537F00723BFB /* saxaphone-volume.png */; };
+		5439CF251761537F00723BFB /* wood-guit-black-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF191761537F00723BFB /* wood-guit-black-volume.png */; };
+		5439CF261761537F00723BFB /* wood-guit-yellow-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF1A1761537F00723BFB /* wood-guit-yellow-volume.png */; };
+		5439CF281761539500723BFB /* violin-volume.png in Resources */ = {isa = PBXBuildFile; fileRef = 5439CF271761539500723BFB /* violin-volume.png */; };
+		54754064175F37E000074C41 /* ButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54754063175F37E000074C41 /* ButtonsViewController.m */; };
+		5475406E175F5C0C00074C41 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5475406D175F5C0C00074C41 /* navbar.png */; };
+		54754071175F712900074C41 /* drums1-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5475406F175F712900074C41 /* drums1-selected.png */; };
+		54754072175F712900074C41 /* piano-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 54754070175F712900074C41 /* piano-selected.png */; };
+		5481C975175DDD9400600142 /* wood-guit-yellow-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C96E175DDD9400600142 /* wood-guit-yellow-menu.png */; };
+		5481C976175DDD9400600142 /* wood-guit-black-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C96F175DDD9400600142 /* wood-guit-black-menu.png */; };
+		5481C977175DDD9400600142 /* el-guit-black-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C970175DDD9400600142 /* el-guit-black-menu.png */; };
+		5481C978175DDD9400600142 /* el-guit-red-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C971175DDD9400600142 /* el-guit-red-menu.png */; };
+		5481C979175DDD9400600142 /* violin-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C972175DDD9400600142 /* violin-menu.png */; };
+		5481C97A175DDD9400600142 /* microphone-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C973175DDD9400600142 /* microphone-menu.png */; };
+		5481C97B175DDD9400600142 /* saxaphone-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C974175DDD9400600142 /* saxaphone-menu.png */; };
+		5481C97D175DE57700600142 /* drums1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C97C175DE57700600142 /* drums1.png */; };
+		5481C97F175DE97F00600142 /* drums1-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5481C97E175DE97F00600142 /* drums1-menu.png */; };
+		548ADD11173D1ED900C87F58 /* ImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 548ADD10173D1ED900C87F58 /* ImageHelper.m */; };
+		548EE7E6173D0F2300F95A1F /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 548EE7E5173D0F2300F95A1F /* Image.m */; };
+		54CD673F1760D42C00B989A7 /* server-volume-down-state-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CD673B1760D42C00B989A7 /* server-volume-down-state-0.png */; };
+		54CD67401760D42C00B989A7 /* server-volume-down-state-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CD673C1760D42C00B989A7 /* server-volume-down-state-1.png */; };
+		54CD67411760D42C00B989A7 /* server-volume-up-state-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CD673D1760D42C00B989A7 /* server-volume-up-state-0.png */; };
+		54CD67421760D42C00B989A7 /* server-volume-up-state-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CD673E1760D42C00B989A7 /* server-volume-up-state-1.png */; };
+		54CD67451760DD4A00B989A7 /* client-volume-down-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CD67441760DD4900B989A7 /* client-volume-down-button.png */; };
+		54CD67471760DF4C00B989A7 /* client-volume-up-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CD67461760DF4C00B989A7 /* client-volume-up-button.png */; };
+		54CD674D1760E4AF00B989A7 /* ServerNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD674C1760E4AF00B989A7 /* ServerNotificationsViewController.m */; };
+		54D0E1FC175CDA4700F81B71 /* drums.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D0E1F9175CDA4700F81B71 /* drums.png */; };
+		54D0E1FD175CDA4700F81B71 /* QServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D0E1FB175CDA4700F81B71 /* QServer.m */; };
+		54D0E1FF175CDC5900F81B71 /* drums-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D0E1FE175CDC5900F81B71 /* drums-menu.png */; };
+		54D0E201175CDCE900F81B71 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54D0E200175CDCE800F81B71 /* background.jpg */; };
+		54D0E203175CFA0900F81B71 /* piano.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D0E202175CFA0900F81B71 /* piano.png */; };
+		54D0E205175CFA1D00F81B71 /* piano-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D0E204175CFA1C00F81B71 /* piano-menu.png */; };
+		835C726817319073000700DB /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 835C726717319073000700DB /* CustomCell.m */; };
+		835C72731732F004000700DB /* MovableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835C72721732F004000700DB /* MovableViewController.m */; };
+		835C727C173AAD07000700DB /* wood-guit-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C7274173AAD07000700DB /* wood-guit-black.png */; };
+		835C727D173AAD07000700DB /* el-guit-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C7275173AAD07000700DB /* el-guit-black.png */; };
+		835C727E173AAD07000700DB /* el-guit-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C7276173AAD07000700DB /* el-guit-red.png */; };
+		835C727F173AAD07000700DB /* wood-guit-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C7277173AAD07000700DB /* wood-guit-yellow.png */; };
+		835C7280173AAD07000700DB /* violin.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C7278173AAD07000700DB /* violin.png */; };
+		835C7281173AAD07000700DB /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C7279173AAD07000700DB /* microphone.png */; };
+		835C7282173AAD07000700DB /* saxaphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C727A173AAD07000700DB /* saxaphone.png */; };
+		835C7285173AB593000700DB /* wood-texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 835C7284173AB593000700DB /* wood-texture.png */; };
+		9040803E175FDAD200454684 /* DetailViewController+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9040803D175FDAD200454684 /* DetailViewController+networking.m */; };
+		90408040175FE48A00454684 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9040803F175FE48A00454684 /* GameKit.framework */; };
+		90408041175FE4D900454684 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 9081319F175E5FFB00527206 /* Server.m */; };
+		90408042175FE4DF00454684 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 908131A1175E5FFB00527206 /* Client.m */; };
+		904080431760FF9A00454684 /* VolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD67491760E2F800B989A7 /* VolumeViewController.m */; };
+		908131A5175FA58300527206 /* drums-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131A4175FA58300527206 /* drums-selected.png */; };
+		908131B0175FA5C600527206 /* el-guit-black-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131A6175FA5C600527206 /* el-guit-black-selected.png */; };
+		908131B1175FA5C600527206 /* el-guit-red-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131A7175FA5C600527206 /* el-guit-red-selected.png */; };
+		908131B2175FA5C600527206 /* el-guit-red1-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131A8175FA5C600527206 /* el-guit-red1-selected.png */; };
+		908131B3175FA5C600527206 /* microphone-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131A9175FA5C600527206 /* microphone-selected.png */; };
+		908131B4175FA5C600527206 /* microphone1-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131AA175FA5C600527206 /* microphone1-selected.png */; };
+		908131B5175FA5C600527206 /* monitor-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131AB175FA5C600527206 /* monitor-selected.png */; };
+		908131B6175FA5C600527206 /* saxaphone-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131AC175FA5C600527206 /* saxaphone-selected.png */; };
+		908131B7175FA5C600527206 /* violin-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131AD175FA5C600527206 /* violin-selected.png */; };
+		908131B8175FA5C600527206 /* wood-guit-black-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131AE175FA5C600527206 /* wood-guit-black-selected.png */; };
+		908131B9175FA5C600527206 /* wood-guit-yellow-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131AF175FA5C600527206 /* wood-guit-yellow-selected.png */; };
+		908131C0175FA64100527206 /* el-guit-red1-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131BA175FA64100527206 /* el-guit-red1-menu.png */; };
+		908131C2175FA64100527206 /* microphone1-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131BC175FA64100527206 /* microphone1-menu.png */; };
+		908131C3175FA64100527206 /* monitor-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131BD175FA64100527206 /* monitor-menu.png */; };
+		908131C9175FA67B00527206 /* el-guit-red1.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131C6175FA67B00527206 /* el-guit-red1.png */; };
+		908131CA175FA67B00527206 /* microphone1.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131C7175FA67B00527206 /* microphone1.png */; };
+		908131CB175FA67B00527206 /* monitor.png in Resources */ = {isa = PBXBuildFile; fileRef = 908131C8175FA67B00527206 /* monitor.png */; };
+		A6A9A5191716F0C90049A7FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9A5181716F0C90049A7FD /* UIKit.framework */; };
+		A6A9A51B1716F0C90049A7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9A51A1716F0C90049A7FD /* Foundation.framework */; };
+		A6A9A51D1716F0C90049A7FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9A51C1716F0C90049A7FD /* CoreGraphics.framework */; };
+		A6A9A5231716F0C90049A7FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6A9A5211716F0C90049A7FD /* InfoPlist.strings */; };
+		A6A9A5251716F0C90049A7FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9A5241716F0C90049A7FD /* main.m */; };
+		A6A9A5291716F0C90049A7FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9A5281716F0C90049A7FD /* AppDelegate.m */; };
+		A6A9A52B1716F0C90049A7FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A9A52A1716F0C90049A7FD /* Default.png */; };
+		A6A9A52D1716F0C90049A7FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A9A52C1716F0C90049A7FD /* Default@2x.png */; };
+		A6A9A52F1716F0C90049A7FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A9A52E1716F0C90049A7FD /* Default-568h@2x.png */; };
+		A6A9A5321716F0C90049A7FD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A9A5301716F0C90049A7FD /* MainStoryboard.storyboard */; };
+		A6A9A5351716F0C90049A7FD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9A5341716F0C90049A7FD /* MasterViewController.m */; };
+		A6A9A5381716F0C90049A7FD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9A5371716F0C90049A7FD /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54266C3E1761C6EF008104B0 /* left-menu-hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-menu-hidden.png"; sourceTree = "<group>"; };
+		5439CEF51761518D00723BFB /* drums-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums-notify.png"; sourceTree = "<group>"; };
+		5439CEF61761518D00723BFB /* drums1-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums1-notify.png"; sourceTree = "<group>"; };
+		5439CEF71761518D00723BFB /* el-guit-black-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-black-notify.png"; sourceTree = "<group>"; };
+		5439CEF81761518D00723BFB /* el-guit-red-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red-notify.png"; sourceTree = "<group>"; };
+		5439CEF91761518D00723BFB /* el-guit-red1-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red1-notify.png"; sourceTree = "<group>"; };
+		5439CEFA1761518D00723BFB /* microphone-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone-notify.png"; sourceTree = "<group>"; };
+		5439CEFB1761518D00723BFB /* microphone1-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone1-notify.png"; sourceTree = "<group>"; };
+		5439CEFC1761518D00723BFB /* monitor-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monitor-notify.png"; sourceTree = "<group>"; };
+		5439CEFD1761518D00723BFB /* piano-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piano-notify.png"; sourceTree = "<group>"; };
+		5439CEFE1761518D00723BFB /* saxaphone-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saxaphone-notify.png"; sourceTree = "<group>"; };
+		5439CEFF1761518D00723BFB /* violin-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "violin-notify.png"; sourceTree = "<group>"; };
+		5439CF001761518D00723BFB /* wood-guit-yellow-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-yellow-notify.png"; sourceTree = "<group>"; };
+		5439CF0D176151A900723BFB /* wood-guit-black-notify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-black-notify.png"; sourceTree = "<group>"; };
+		5439CF0F1761537F00723BFB /* drums-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums-volume.png"; sourceTree = "<group>"; };
+		5439CF101761537F00723BFB /* drums1-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums1-volume.png"; sourceTree = "<group>"; };
+		5439CF111761537F00723BFB /* el-guit-black-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-black-volume.png"; sourceTree = "<group>"; };
+		5439CF121761537F00723BFB /* el-guit-red-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red-volume.png"; sourceTree = "<group>"; };
+		5439CF131761537F00723BFB /* el-guit-red1-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red1-volume.png"; sourceTree = "<group>"; };
+		5439CF141761537F00723BFB /* microphone-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone-volume.png"; sourceTree = "<group>"; };
+		5439CF151761537F00723BFB /* microphone1-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone1-volume.png"; sourceTree = "<group>"; };
+		5439CF161761537F00723BFB /* monitor-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monitor-volume.png"; sourceTree = "<group>"; };
+		5439CF171761537F00723BFB /* piano-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piano-volume.png"; sourceTree = "<group>"; };
+		5439CF181761537F00723BFB /* saxaphone-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saxaphone-volume.png"; sourceTree = "<group>"; };
+		5439CF191761537F00723BFB /* wood-guit-black-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-black-volume.png"; sourceTree = "<group>"; };
+		5439CF1A1761537F00723BFB /* wood-guit-yellow-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-yellow-volume.png"; sourceTree = "<group>"; };
+		5439CF271761539500723BFB /* violin-volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "violin-volume.png"; sourceTree = "<group>"; };
+		54754062175F37E000074C41 /* ButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsViewController.h; sourceTree = "<group>"; };
+		54754063175F37E000074C41 /* ButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonsViewController.m; sourceTree = "<group>"; };
+		5475406D175F5C0C00074C41 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		5475406F175F712900074C41 /* drums1-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums1-selected.png"; sourceTree = "<group>"; };
+		54754070175F712900074C41 /* piano-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piano-selected.png"; sourceTree = "<group>"; };
+		5481C96E175DDD9400600142 /* wood-guit-yellow-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-yellow-menu.png"; sourceTree = "<group>"; };
+		5481C96F175DDD9400600142 /* wood-guit-black-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-black-menu.png"; sourceTree = "<group>"; };
+		5481C970175DDD9400600142 /* el-guit-black-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-black-menu.png"; sourceTree = "<group>"; };
+		5481C971175DDD9400600142 /* el-guit-red-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red-menu.png"; sourceTree = "<group>"; };
+		5481C972175DDD9400600142 /* violin-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "violin-menu.png"; sourceTree = "<group>"; };
+		5481C973175DDD9400600142 /* microphone-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone-menu.png"; sourceTree = "<group>"; };
+		5481C974175DDD9400600142 /* saxaphone-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saxaphone-menu.png"; sourceTree = "<group>"; };
+		5481C97C175DE57700600142 /* drums1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drums1.png; sourceTree = "<group>"; };
+		5481C97E175DE97F00600142 /* drums1-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums1-menu.png"; sourceTree = "<group>"; };
+		548ADD0F173D1ED900C87F58 /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		548ADD10173D1ED900C87F58 /* ImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelper.m; sourceTree = "<group>"; };
+		548EE7E4173D0F2200F95A1F /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		548EE7E5173D0F2300F95A1F /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		54CD673B1760D42C00B989A7 /* server-volume-down-state-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "server-volume-down-state-0.png"; sourceTree = "<group>"; };
+		54CD673C1760D42C00B989A7 /* server-volume-down-state-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "server-volume-down-state-1.png"; sourceTree = "<group>"; };
+		54CD673D1760D42C00B989A7 /* server-volume-up-state-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "server-volume-up-state-0.png"; sourceTree = "<group>"; };
+		54CD673E1760D42C00B989A7 /* server-volume-up-state-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "server-volume-up-state-1.png"; sourceTree = "<group>"; };
+		54CD67441760DD4900B989A7 /* client-volume-down-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "client-volume-down-button.png"; sourceTree = "<group>"; };
+		54CD67461760DF4C00B989A7 /* client-volume-up-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "client-volume-up-button.png"; sourceTree = "<group>"; };
+		54CD67481760E2F800B989A7 /* VolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeViewController.h; sourceTree = "<group>"; };
+		54CD67491760E2F800B989A7 /* VolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeViewController.m; sourceTree = "<group>"; };
+		54CD674B1760E4AF00B989A7 /* ServerNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerNotificationsViewController.h; sourceTree = "<group>"; };
+		54CD674C1760E4AF00B989A7 /* ServerNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerNotificationsViewController.m; sourceTree = "<group>"; };
+		54D0E1F9175CDA4700F81B71 /* drums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drums.png; sourceTree = "<group>"; };
+		54D0E1FA175CDA4700F81B71 /* QServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QServer.h; sourceTree = "<group>"; };
+		54D0E1FB175CDA4700F81B71 /* QServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QServer.m; sourceTree = "<group>"; };
+		54D0E1FE175CDC5900F81B71 /* drums-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums-menu.png"; sourceTree = "<group>"; };
+		54D0E200175CDCE800F81B71 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		54D0E202175CFA0900F81B71 /* piano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piano.png; sourceTree = "<group>"; };
+		54D0E204175CFA1C00F81B71 /* piano-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piano-menu.png"; sourceTree = "<group>"; };
+		8341B26A175FBF0A00AB9C53 /* ButtonsViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonsViewDelegate.h; sourceTree = "<group>"; };
+		835C726617319073000700DB /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		835C726717319073000700DB /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		835C72711732F004000700DB /* MovableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableViewController.h; sourceTree = "<group>"; };
+		835C72721732F004000700DB /* MovableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableViewController.m; sourceTree = "<group>"; };
+		835C7274173AAD07000700DB /* wood-guit-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-black.png"; sourceTree = "<group>"; };
+		835C7275173AAD07000700DB /* el-guit-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-black.png"; sourceTree = "<group>"; };
+		835C7276173AAD07000700DB /* el-guit-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red.png"; sourceTree = "<group>"; };
+		835C7277173AAD07000700DB /* wood-guit-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-yellow.png"; sourceTree = "<group>"; };
+		835C7278173AAD07000700DB /* violin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violin.png; sourceTree = "<group>"; };
+		835C7279173AAD07000700DB /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
+		835C727A173AAD07000700DB /* saxaphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saxaphone.png; sourceTree = "<group>"; };
+		835C7284173AB593000700DB /* wood-texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-texture.png"; sourceTree = "<group>"; };
+		9040803C175FDAD200454684 /* DetailViewController+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DetailViewController+networking.h"; sourceTree = "<group>"; };
+		9040803D175FDAD200454684 /* DetailViewController+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DetailViewController+networking.m"; sourceTree = "<group>"; };
+		9040803F175FE48A00454684 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		9081319E175E5FFB00527206 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		9081319F175E5FFB00527206 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		908131A0175E5FFB00527206 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		908131A1175E5FFB00527206 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		908131A4175FA58300527206 /* drums-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drums-selected.png"; sourceTree = "<group>"; };
+		908131A6175FA5C600527206 /* el-guit-black-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-black-selected.png"; sourceTree = "<group>"; };
+		908131A7175FA5C600527206 /* el-guit-red-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red-selected.png"; sourceTree = "<group>"; };
+		908131A8175FA5C600527206 /* el-guit-red1-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red1-selected.png"; sourceTree = "<group>"; };
+		908131A9175FA5C600527206 /* microphone-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone-selected.png"; sourceTree = "<group>"; };
+		908131AA175FA5C600527206 /* microphone1-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone1-selected.png"; sourceTree = "<group>"; };
+		908131AB175FA5C600527206 /* monitor-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monitor-selected.png"; sourceTree = "<group>"; };
+		908131AC175FA5C600527206 /* saxaphone-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saxaphone-selected.png"; sourceTree = "<group>"; };
+		908131AD175FA5C600527206 /* violin-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "violin-selected.png"; sourceTree = "<group>"; };
+		908131AE175FA5C600527206 /* wood-guit-black-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-black-selected.png"; sourceTree = "<group>"; };
+		908131AF175FA5C600527206 /* wood-guit-yellow-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-guit-yellow-selected.png"; sourceTree = "<group>"; };
+		908131BA175FA64100527206 /* el-guit-red1-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red1-menu.png"; sourceTree = "<group>"; };
+		908131BC175FA64100527206 /* microphone1-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone1-menu.png"; sourceTree = "<group>"; };
+		908131BD175FA64100527206 /* monitor-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monitor-menu.png"; sourceTree = "<group>"; };
+		908131C6175FA67B00527206 /* el-guit-red1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "el-guit-red1.png"; sourceTree = "<group>"; };
+		908131C7175FA67B00527206 /* microphone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone1.png; sourceTree = "<group>"; };
+		908131C8175FA67B00527206 /* monitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monitor.png; sourceTree = "<group>"; };
+		A6A9A5151716F0C90049A7FD /* StageManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StageManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A9A5181716F0C90049A7FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6A9A51A1716F0C90049A7FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6A9A51C1716F0C90049A7FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6A9A5201716F0C90049A7FD /* StageManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StageManager-Info.plist"; sourceTree = "<group>"; };
+		A6A9A5221716F0C90049A7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6A9A5241716F0C90049A7FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A9A5261716F0C90049A7FD /* StageManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StageManager-Prefix.pch"; sourceTree = "<group>"; };
+		A6A9A5271716F0C90049A7FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6A9A5281716F0C90049A7FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6A9A52A1716F0C90049A7FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A6A9A52C1716F0C90049A7FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A6A9A52E1716F0C90049A7FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A6A9A5311716F0C90049A7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A6A9A5331716F0C90049A7FD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A6A9A5341716F0C90049A7FD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A6A9A5361716F0C90049A7FD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A6A9A5371716F0C90049A7FD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A9A5121716F0C90049A7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90408040175FE48A00454684 /* GameKit.framework in Frameworks */,
+				A6A9A5191716F0C90049A7FD /* UIKit.framework in Frameworks */,
+				A6A9A51B1716F0C90049A7FD /* Foundation.framework in Frameworks */,
+				A6A9A51D1716F0C90049A7FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5439CEF41761516D00723BFB /* notify */ = {
+			isa = PBXGroup;
+			children = (
+				5439CF0D176151A900723BFB /* wood-guit-black-notify.png */,
+				5439CEF51761518D00723BFB /* drums-notify.png */,
+				5439CEF61761518D00723BFB /* drums1-notify.png */,
+				5439CEF71761518D00723BFB /* el-guit-black-notify.png */,
+				5439CEF81761518D00723BFB /* el-guit-red-notify.png */,
+				5439CEF91761518D00723BFB /* el-guit-red1-notify.png */,
+				5439CEFA1761518D00723BFB /* microphone-notify.png */,
+				5439CEFB1761518D00723BFB /* microphone1-notify.png */,
+				5439CEFC1761518D00723BFB /* monitor-notify.png */,
+				5439CEFD1761518D00723BFB /* piano-notify.png */,
+				5439CEFE1761518D00723BFB /* saxaphone-notify.png */,
+				5439CEFF1761518D00723BFB /* violin-notify.png */,
+				5439CF001761518D00723BFB /* wood-guit-yellow-notify.png */,
+			);
+			name = notify;
+			sourceTree = "<group>";
+		};
+		54754073175F712D00074C41 /* selected */ = {
+			isa = PBXGroup;
+			children = (
+				54754070175F712900074C41 /* piano-selected.png */,
+				5475406F175F712900074C41 /* drums1-selected.png */,
+				908131A4175FA58300527206 /* drums-selected.png */,
+				908131A6175FA5C600527206 /* el-guit-black-selected.png */,
+				908131A7175FA5C600527206 /* el-guit-red-selected.png */,
+				908131A8175FA5C600527206 /* el-guit-red1-selected.png */,
+				908131A9175FA5C600527206 /* microphone-selected.png */,
+				908131AA175FA5C600527206 /* microphone1-selected.png */,
+				908131AB175FA5C600527206 /* monitor-selected.png */,
+				908131AC175FA5C600527206 /* saxaphone-selected.png */,
+				908131AD175FA5C600527206 /* violin-selected.png */,
+				908131AE175FA5C600527206 /* wood-guit-black-selected.png */,
+				908131AF175FA5C600527206 /* wood-guit-yellow-selected.png */,
+			);
+			name = selected;
+			sourceTree = "<group>";
+		};
+		548EE7D1173D068B00F95A1F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				548EE7D3173D06CD00F95A1F /* instruments */,
+				548EE7D2173D06AA00F95A1F /* menu */,
+				54266C3E1761C6EF008104B0 /* left-menu-hidden.png */,
+				54CD67461760DF4C00B989A7 /* client-volume-up-button.png */,
+				54CD67441760DD4900B989A7 /* client-volume-down-button.png */,
+				54CD673B1760D42C00B989A7 /* server-volume-down-state-0.png */,
+				54CD673C1760D42C00B989A7 /* server-volume-down-state-1.png */,
+				54CD673D1760D42C00B989A7 /* server-volume-up-state-0.png */,
+				54CD673E1760D42C00B989A7 /* server-volume-up-state-1.png */,
+				835C7284173AB593000700DB /* wood-texture.png */,
+				5475406D175F5C0C00074C41 /* navbar.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		548EE7D2173D06AA00F95A1F /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				908131BA175FA64100527206 /* el-guit-red1-menu.png */,
+				908131BC175FA64100527206 /* microphone1-menu.png */,
+				908131BD175FA64100527206 /* monitor-menu.png */,
+				5481C971175DDD9400600142 /* el-guit-red-menu.png */,
+				5481C970175DDD9400600142 /* el-guit-black-menu.png */,
+				5481C96F175DDD9400600142 /* wood-guit-black-menu.png */,
+				5481C96E175DDD9400600142 /* wood-guit-yellow-menu.png */,
+				5481C973175DDD9400600142 /* microphone-menu.png */,
+				5481C974175DDD9400600142 /* saxaphone-menu.png */,
+				5481C972175DDD9400600142 /* violin-menu.png */,
+				54D0E1FE175CDC5900F81B71 /* drums-menu.png */,
+				5481C97E175DE97F00600142 /* drums1-menu.png */,
+				54D0E204175CFA1C00F81B71 /* piano-menu.png */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		548EE7D3173D06CD00F95A1F /* instruments */ = {
+			isa = PBXGroup;
+			children = (
+				5439CEF41761516D00723BFB /* notify */,
+				54CD67431760D52100B989A7 /* volume */,
+				54754073175F712D00074C41 /* selected */,
+				835C7276173AAD07000700DB /* el-guit-red.png */,
+				835C7275173AAD07000700DB /* el-guit-black.png */,
+				908131C6175FA67B00527206 /* el-guit-red1.png */,
+				835C7274173AAD07000700DB /* wood-guit-black.png */,
+				835C7277173AAD07000700DB /* wood-guit-yellow.png */,
+				835C7279173AAD07000700DB /* microphone.png */,
+				835C727A173AAD07000700DB /* saxaphone.png */,
+				835C7278173AAD07000700DB /* violin.png */,
+				54D0E1F9175CDA4700F81B71 /* drums.png */,
+				5481C97C175DE57700600142 /* drums1.png */,
+				908131C7175FA67B00527206 /* microphone1.png */,
+				908131C8175FA67B00527206 /* monitor.png */,
+				54D0E202175CFA0900F81B71 /* piano.png */,
+			);
+			name = instruments;
+			sourceTree = "<group>";
+		};
+		54CD67431760D52100B989A7 /* volume */ = {
+			isa = PBXGroup;
+			children = (
+				5439CF271761539500723BFB /* violin-volume.png */,
+				5439CF0F1761537F00723BFB /* drums-volume.png */,
+				5439CF101761537F00723BFB /* drums1-volume.png */,
+				5439CF111761537F00723BFB /* el-guit-black-volume.png */,
+				5439CF121761537F00723BFB /* el-guit-red-volume.png */,
+				5439CF131761537F00723BFB /* el-guit-red1-volume.png */,
+				5439CF141761537F00723BFB /* microphone-volume.png */,
+				5439CF151761537F00723BFB /* microphone1-volume.png */,
+				5439CF161761537F00723BFB /* monitor-volume.png */,
+				5439CF171761537F00723BFB /* piano-volume.png */,
+				5439CF181761537F00723BFB /* saxaphone-volume.png */,
+				5439CF191761537F00723BFB /* wood-guit-black-volume.png */,
+				5439CF1A1761537F00723BFB /* wood-guit-yellow-volume.png */,
+			);
+			name = volume;
+			sourceTree = "<group>";
+		};
+		54D0E1F2175CC3F100F81B71 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				54D0E1F5175CC49C00F81B71 /* GK */,
+				54D0E1F4175CC48B00F81B71 /* BonJour */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		54D0E1F3175CC42B00F81B71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				835C726617319073000700DB /* CustomCell.h */,
+				835C726717319073000700DB /* CustomCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		54D0E1F4175CC48B00F81B71 /* BonJour */ = {
+			isa = PBXGroup;
+			children = (
+				54D0E1FA175CDA4700F81B71 /* QServer.h */,
+				54D0E1FB175CDA4700F81B71 /* QServer.m */,
+				A6A9A5271716F0C90049A7FD /* AppDelegate.h */,
+				A6A9A5281716F0C90049A7FD /* AppDelegate.m */,
+			);
+			name = BonJour;
+			sourceTree = "<group>";
+		};
+		54D0E1F5175CC49C00F81B71 /* GK */ = {
+			isa = PBXGroup;
+			children = (
+				9081319E175E5FFB00527206 /* Server.h */,
+				9081319F175E5FFB00527206 /* Server.m */,
+				908131A0175E5FFB00527206 /* Client.h */,
+				908131A1175E5FFB00527206 /* Client.m */,
+			);
+			name = GK;
+			sourceTree = "<group>";
+		};
+		54D0E1F6175CCAB100F81B71 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9A5301716F0C90049A7FD /* MainStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		54D0E1F7175CCAE700F81B71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				548EE7E4173D0F2200F95A1F /* Image.h */,
+				548EE7E5173D0F2300F95A1F /* Image.m */,
+				548ADD0F173D1ED900C87F58 /* ImageHelper.h */,
+				548ADD10173D1ED900C87F58 /* ImageHelper.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		54D0E1F8175CCB0900F81B71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9A5331716F0C90049A7FD /* MasterViewController.h */,
+				A6A9A5341716F0C90049A7FD /* MasterViewController.m */,
+				A6A9A5361716F0C90049A7FD /* DetailViewController.h */,
+				A6A9A5371716F0C90049A7FD /* DetailViewController.m */,
+				835C72711732F004000700DB /* MovableViewController.h */,
+				835C72721732F004000700DB /* MovableViewController.m */,
+				54754062175F37E000074C41 /* ButtonsViewController.h */,
+				54754063175F37E000074C41 /* ButtonsViewController.m */,
+				9040803C175FDAD200454684 /* DetailViewController+networking.h */,
+				9040803D175FDAD200454684 /* DetailViewController+networking.m */,
+				54CD67481760E2F800B989A7 /* VolumeViewController.h */,
+				54CD67491760E2F800B989A7 /* VolumeViewController.m */,
+				54CD674B1760E4AF00B989A7 /* ServerNotificationsViewController.h */,
+				54CD674C1760E4AF00B989A7 /* ServerNotificationsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8341B269175FBEBB00AB9C53 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8341B26A175FBF0A00AB9C53 /* ButtonsViewDelegate.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		A6A9A50C1716F0C90049A7FD = {
+			isa = PBXGroup;
+			children = (
+				A6A9A51E1716F0C90049A7FD /* StageManager */,
+				A6A9A5171716F0C90049A7FD /* Frameworks */,
+				A6A9A5161716F0C90049A7FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A9A5161716F0C90049A7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9A5151716F0C90049A7FD /* StageManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A9A5171716F0C90049A7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9040803F175FE48A00454684 /* GameKit.framework */,
+				A6A9A5181716F0C90049A7FD /* UIKit.framework */,
+				A6A9A51A1716F0C90049A7FD /* Foundation.framework */,
+				A6A9A51C1716F0C90049A7FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A9A51E1716F0C90049A7FD /* StageManager */ = {
+			isa = PBXGroup;
+			children = (
+				8341B269175FBEBB00AB9C53 /* Protocol */,
+				54D0E1F7175CCAE700F81B71 /* Model */,
+				54D0E1F3175CC42B00F81B71 /* View */,
+				54D0E1F8175CCB0900F81B71 /* Controller */,
+				54D0E1F2175CC3F100F81B71 /* Networking */,
+				54D0E1F6175CCAB100F81B71 /* Storyboards */,
+				A6A9A51F1716F0C90049A7FD /* Supporting Files */,
+			);
+			path = StageManager;
+			sourceTree = "<group>";
+		};
+		A6A9A51F1716F0C90049A7FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548EE7D1173D068B00F95A1F /* images */,
+				54D0E200175CDCE800F81B71 /* background.jpg */,
+				A6A9A5201716F0C90049A7FD /* StageManager-Info.plist */,
+				A6A9A5211716F0C90049A7FD /* InfoPlist.strings */,
+				A6A9A5241716F0C90049A7FD /* main.m */,
+				A6A9A5261716F0C90049A7FD /* StageManager-Prefix.pch */,
+				A6A9A52A1716F0C90049A7FD /* Default.png */,
+				A6A9A52C1716F0C90049A7FD /* Default@2x.png */,
+				A6A9A52E1716F0C90049A7FD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A9A5141716F0C90049A7FD /* StageManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A9A53B1716F0C90049A7FD /* Build configuration list for PBXNativeTarget "StageManager" */;
+			buildPhases = (
+				A6A9A5111716F0C90049A7FD /* Sources */,
+				A6A9A5121716F0C90049A7FD /* Frameworks */,
+				A6A9A5131716F0C90049A7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StageManager;
+			productName = StageManager;
+			productReference = A6A9A5151716F0C90049A7FD /* StageManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A9A50D1716F0C90049A7FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = pv239;
+			};
+			buildConfigurationList = A6A9A5101716F0C90049A7FD /* Build configuration list for PBXProject "StageManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6A9A50C1716F0C90049A7FD;
+			productRefGroup = A6A9A5161716F0C90049A7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A9A5141716F0C90049A7FD /* StageManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A9A5131716F0C90049A7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9A5231716F0C90049A7FD /* InfoPlist.strings in Resources */,
+				A6A9A52B1716F0C90049A7FD /* Default.png in Resources */,
+				A6A9A52D1716F0C90049A7FD /* Default@2x.png in Resources */,
+				A6A9A52F1716F0C90049A7FD /* Default-568h@2x.png in Resources */,
+				A6A9A5321716F0C90049A7FD /* MainStoryboard.storyboard in Resources */,
+				835C727C173AAD07000700DB /* wood-guit-black.png in Resources */,
+				835C727D173AAD07000700DB /* el-guit-black.png in Resources */,
+				835C727E173AAD07000700DB /* el-guit-red.png in Resources */,
+				835C727F173AAD07000700DB /* wood-guit-yellow.png in Resources */,
+				835C7280173AAD07000700DB /* violin.png in Resources */,
+				835C7281173AAD07000700DB /* microphone.png in Resources */,
+				835C7282173AAD07000700DB /* saxaphone.png in Resources */,
+				835C7285173AB593000700DB /* wood-texture.png in Resources */,
+				54D0E1FC175CDA4700F81B71 /* drums.png in Resources */,
+				54D0E1FF175CDC5900F81B71 /* drums-menu.png in Resources */,
+				54D0E201175CDCE900F81B71 /* background.jpg in Resources */,
+				54D0E203175CFA0900F81B71 /* piano.png in Resources */,
+				54D0E205175CFA1D00F81B71 /* piano-menu.png in Resources */,
+				5481C975175DDD9400600142 /* wood-guit-yellow-menu.png in Resources */,
+				5481C976175DDD9400600142 /* wood-guit-black-menu.png in Resources */,
+				5481C977175DDD9400600142 /* el-guit-black-menu.png in Resources */,
+				5481C978175DDD9400600142 /* el-guit-red-menu.png in Resources */,
+				5481C979175DDD9400600142 /* violin-menu.png in Resources */,
+				5481C97A175DDD9400600142 /* microphone-menu.png in Resources */,
+				5481C97B175DDD9400600142 /* saxaphone-menu.png in Resources */,
+				5481C97D175DE57700600142 /* drums1.png in Resources */,
+				5481C97F175DE97F00600142 /* drums1-menu.png in Resources */,
+				5475406E175F5C0C00074C41 /* navbar.png in Resources */,
+				54754071175F712900074C41 /* drums1-selected.png in Resources */,
+				54754072175F712900074C41 /* piano-selected.png in Resources */,
+				908131A5175FA58300527206 /* drums-selected.png in Resources */,
+				908131B0175FA5C600527206 /* el-guit-black-selected.png in Resources */,
+				908131B1175FA5C600527206 /* el-guit-red-selected.png in Resources */,
+				908131B2175FA5C600527206 /* el-guit-red1-selected.png in Resources */,
+				908131B3175FA5C600527206 /* microphone-selected.png in Resources */,
+				908131B4175FA5C600527206 /* microphone1-selected.png in Resources */,
+				908131B5175FA5C600527206 /* monitor-selected.png in Resources */,
+				908131B6175FA5C600527206 /* saxaphone-selected.png in Resources */,
+				908131B7175FA5C600527206 /* violin-selected.png in Resources */,
+				908131B8175FA5C600527206 /* wood-guit-black-selected.png in Resources */,
+				908131B9175FA5C600527206 /* wood-guit-yellow-selected.png in Resources */,
+				908131C0175FA64100527206 /* el-guit-red1-menu.png in Resources */,
+				908131C2175FA64100527206 /* microphone1-menu.png in Resources */,
+				908131C3175FA64100527206 /* monitor-menu.png in Resources */,
+				908131C9175FA67B00527206 /* el-guit-red1.png in Resources */,
+				908131CA175FA67B00527206 /* microphone1.png in Resources */,
+				908131CB175FA67B00527206 /* monitor.png in Resources */,
+				54CD673F1760D42C00B989A7 /* server-volume-down-state-0.png in Resources */,
+				54CD67401760D42C00B989A7 /* server-volume-down-state-1.png in Resources */,
+				54CD67411760D42C00B989A7 /* server-volume-up-state-0.png in Resources */,
+				54CD67421760D42C00B989A7 /* server-volume-up-state-1.png in Resources */,
+				54CD67451760DD4A00B989A7 /* client-volume-down-button.png in Resources */,
+				54CD67471760DF4C00B989A7 /* client-volume-up-button.png in Resources */,
+				5439CF011761518D00723BFB /* drums-notify.png in Resources */,
+				5439CF021761518D00723BFB /* drums1-notify.png in Resources */,
+				5439CF031761518D00723BFB /* el-guit-black-notify.png in Resources */,
+				5439CF041761518D00723BFB /* el-guit-red-notify.png in Resources */,
+				5439CF051761518D00723BFB /* el-guit-red1-notify.png in Resources */,
+				5439CF061761518D00723BFB /* microphone-notify.png in Resources */,
+				5439CF071761518D00723BFB /* microphone1-notify.png in Resources */,
+				5439CF081761518D00723BFB /* monitor-notify.png in Resources */,
+				5439CF091761518D00723BFB /* piano-notify.png in Resources */,
+				5439CF0A1761518D00723BFB /* saxaphone-notify.png in Resources */,
+				5439CF0B1761518D00723BFB /* violin-notify.png in Resources */,
+				5439CF0C1761518D00723BFB /* wood-guit-yellow-notify.png in Resources */,
+				5439CF0E176151A900723BFB /* wood-guit-black-notify.png in Resources */,
+				5439CF1B1761537F00723BFB /* drums-volume.png in Resources */,
+				5439CF1C1761537F00723BFB /* drums1-volume.png in Resources */,
+				5439CF1D1761537F00723BFB /* el-guit-black-volume.png in Resources */,
+				5439CF1E1761537F00723BFB /* el-guit-red-volume.png in Resources */,
+				5439CF1F1761537F00723BFB /* el-guit-red1-volume.png in Resources */,
+				5439CF201761537F00723BFB /* microphone-volume.png in Resources */,
+				5439CF211761537F00723BFB /* microphone1-volume.png in Resources */,
+				5439CF221761537F00723BFB /* monitor-volume.png in Resources */,
+				5439CF231761537F00723BFB /* piano-volume.png in Resources */,
+				5439CF241761537F00723BFB /* saxaphone-volume.png in Resources */,
+				5439CF251761537F00723BFB /* wood-guit-black-volume.png in Resources */,
+				5439CF261761537F00723BFB /* wood-guit-yellow-volume.png in Resources */,
+				5439CF281761539500723BFB /* violin-volume.png in Resources */,
+				54266C3F1761C6EF008104B0 /* left-menu-hidden.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A9A5111716F0C90049A7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9A5251716F0C90049A7FD /* main.m in Sources */,
+				A6A9A5291716F0C90049A7FD /* AppDelegate.m in Sources */,
+				A6A9A5351716F0C90049A7FD /* MasterViewController.m in Sources */,
+				A6A9A5381716F0C90049A7FD /* DetailViewController.m in Sources */,
+				835C726817319073000700DB /* CustomCell.m in Sources */,
+				835C72731732F004000700DB /* MovableViewController.m in Sources */,
+				548EE7E6173D0F2300F95A1F /* Image.m in Sources */,
+				548ADD11173D1ED900C87F58 /* ImageHelper.m in Sources */,
+				54D0E1FD175CDA4700F81B71 /* QServer.m in Sources */,
+				54754064175F37E000074C41 /* ButtonsViewController.m in Sources */,
+				9040803E175FDAD200454684 /* DetailViewController+networking.m in Sources */,
+				90408041175FE4D900454684 /* Server.m in Sources */,
+				90408042175FE4DF00454684 /* Client.m in Sources */,
+				54CD674D1760E4AF00B989A7 /* ServerNotificationsViewController.m in Sources */,
+				904080431760FF9A00454684 /* VolumeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6A9A5211716F0C90049A7FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A9A5221716F0C90049A7FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6A9A5301716F0C90049A7FD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A9A5311716F0C90049A7FD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A9A5391716F0C90049A7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A6A9A53A1716F0C90049A7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A9A53C1716F0C90049A7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StageManager/StageManager-Prefix.pch";
+				INFOPLIST_FILE = "StageManager/StageManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6A9A53D1716F0C90049A7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StageManager/StageManager-Prefix.pch";
+				INFOPLIST_FILE = "StageManager/StageManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A9A5101716F0C90049A7FD /* Build configuration list for PBXProject "StageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9A5391716F0C90049A7FD /* Debug */,
+				A6A9A53A1716F0C90049A7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A9A53B1716F0C90049A7FD /* Build configuration list for PBXNativeTarget "StageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A9A53C1716F0C90049A7FD /* Debug */,
+				A6A9A53D1716F0C90049A7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A9A50D1716F0C90049A7FD /* Project object */;
+}
